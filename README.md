@@ -22,3 +22,6 @@ A website for list of colors. This web site lets users sign in, once signed in t
 
 ## Access Application
 Website URL: http://cop4331colors.xyz/
+
+## Assumptions/Limitations
+It takes time for Digital Ocean and GoDaddy domain to load content when first made 
