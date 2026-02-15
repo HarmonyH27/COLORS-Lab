@@ -9,6 +9,7 @@ A website for list of colors. This web site lets users sign in, once signed in t
 - GoDaddy
 - PuTTY
 - FileZilla
+- mySQL 
 - Visual Studios Code
 
 ## Instructions
