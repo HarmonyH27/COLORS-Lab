@@ -1,0 +1,27 @@
+@startuml
+class User {
+    Int id
+    String firstName
+    String lastName
+    String loginName
+    String Password
+    method register()
+    method login()
+    method logout()
+    
+}
+
+class Color {
+Int id
+Int userId
+String color
+method searchColors()
+method addColors()
+}
+
+
+class "User" as User
+class "Color" as Color
+
+User - Color: has >
+@enduml

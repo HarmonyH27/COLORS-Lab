@@ -1,0 +1,29 @@
+@startuml
+start
+repeat
+    if (User has an account?) then (Yes)
+        
+        repeat :Login; <<#palegreen>>
+        backward:Re-try Login;
+        repeat while(Valid Login?) is (    No) not (Yes)
+        break
+    else (No)
+        repeat :Sign Up; <<#lightblue>>
+        backward:Re-try Sign up;
+        repeat while(Valid Sign up?) is (    No) not (Yes) 
+
+
+    endif
+repeat while (New account created?) is (Yes)
+-Display user Dashboard
+repeat
+switch(User Action)  <<#lightyellow>>
+case(Add Color)
+    -Add Contact
+case(Search Color)
+    -Search Contact
+endswitch
+repeat while (Another User Action) is (Yes) <<#lightyellow>>
+:User Logout of account;
+stop
+@enduml

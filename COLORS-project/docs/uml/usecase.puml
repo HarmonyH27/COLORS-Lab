@@ -1,0 +1,21 @@
+@startuml
+left to right direction
+actor "New User" as NU
+actor "Existing User" as EU
+
+
+
+package "Contact Manager" {
+    usecase "Sign Up" as UC1
+    usecase "Login" as UC2
+    usecase "Add Color" as UC3
+    usecase "Search Color" as UC4
+    usecase "Log out" as UC5
+}
+
+NU --> UC1
+EU --> UC2
+EU --> UC3
+EU --> UC4
+EU --> UC5
+@enduml
