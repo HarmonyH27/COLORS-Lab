@@ -7,8 +7,8 @@ body {
   width: 100%;
   margin: 2% 5%;
   text-align: center;
-  font-family: "Ubuntu", sans-serif;
-  color: #ffffff;
+  font-family: Ubuntu, sans-serif;
+  color: #fff;
 }
 
 #login-div {
@@ -40,17 +40,17 @@ body {
   border-radius: 25px;
   width: 50%;
   margin-left: 25%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 .buttons:hover {
   background-color: #00d5124f;
-  color: #ffffff;
+  color: #fff;
   opacity: 0.5;
 }
 
 #login-name {
-	font-size: 30px;
+  font-size: 30px;
 }
 
 #login-password {
@@ -72,7 +72,7 @@ input[type="password"] {
   width: 80%;
   margin-left: 10%;
   margin-bottom: 2%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 #inner-title {
@@ -82,7 +82,7 @@ input[type="password"] {
   text-align: center;
   margin-left: 5%;
   margin-bottom: 2%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
   color: #95060a;
 }
 
@@ -93,7 +93,7 @@ input[type="password"] {
   text-align: center;
   margin-left: 5%;
   margin-bottom: 2%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
   color: #95060a;
 }
 
@@ -114,7 +114,7 @@ select {
   margin-left: 35%;
   margin-top: 2%;
   font-size: 0.75em;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
 }
 
 #color-search-result {
@@ -129,6 +129,6 @@ select {
   margin-left: 5%;
   margin-top: 2%;
   margin-bottom: 1%;
-  font-family: "Ubuntu", sans-serif;
+  font-family: Ubuntu, sans-serif;
   color: #95060a;
 }
