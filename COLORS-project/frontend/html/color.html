@@ -1,12 +1,13 @@
 <!DOCTYPE html>
+<html>
 <head>
 <title>COP 4331 LAMP Stack Demo</title>
-<script type="text/javascript" src="js/code.js"></script>
 <link href="css/styles.css" rel="stylesheet">	
 <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 
 </head>
 <body>
+<script type="text/javascript" src="js/code.js"></script>
 
 <script type="text/javascript">
 document.addEventListener('DOMContentLoaded', function() 
@@ -19,20 +20,20 @@ readCookie();
 
 <div id="logged-in-div">
 <span id="username"></span><br />
-<button type="button" id="logoutButton" class="buttons" onclick="doLogout();"> Log Out </button>
+<button type="button" id="logout-button" class="buttons" onclick="doLogout();"> Log Out </button>
 </div>
 
 <div id="access-ui-div">
 <br />
 
-<input type="text" id="searchText" placeholder="Color To Search For"/>
-<button type="button" id="searchColorButton" class="buttons" onclick="searchColor();"> Search Color </button><br />
+<input type="text" id="search-text" placeholder="Color To Search For"/>
+<button type="button" id="search-color-button" class="buttons" onclick="searchColor();"> Search Color </button><br />
 <span class="color-add-result"></span>
 <p id="color-list">
 </p><br /><br />
 
 <input type="text" id="color-text" placeholder="Color To Add">
-<button type="button" id="addColorButton" class="buttons" onclick="addColor();"> Add Color </button><br />
+<button type="button" id="add-color-button" class="buttons" onclick="addColor();"> Add Color </button><br />
 <span class="color-add-result"></span>
 </div>
 
