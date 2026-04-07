@@ -1,0 +1,11 @@
+name: COLORS LAB Linter
+on:
+  push:
+    branches:
+    - actions
+  pull_request:
+    branches:
+    - actions
+jobs:
+  build:
+    runs-on: ubuntu-latest
